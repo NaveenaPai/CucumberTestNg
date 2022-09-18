@@ -1,0 +1,6 @@
+pages\UserAccountPage.class
+pages\LoginPage.class
+utilities\DocToHTMLConvertUtility.class
+factory\DriverFactory.class
+pages\HomePage.class
+utilities\ConfigReader.class

@@ -1,0 +1,5 @@
+stepdefinitions\LoginPageSteps.class
+stepdefinitions\UserAccountPageSteps.class
+hooks\CucumberApplicationHook.class
+testrunners\TestRunner.class
+testrunners\FailedTestRunner.class

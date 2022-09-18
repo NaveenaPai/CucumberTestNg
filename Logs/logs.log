@@ -1,0 +1,44 @@
+2022-09-17 21:58:57.273 [TestNG-PoolService-3] INFO  factory.DriverFactory - user_has_already_logged_in_to_application ----- Start
+2022-09-17 21:58:57.278 [TestNG-PoolService-3] INFO  factory.DriverFactory - Driver sucessfully initialised
+2022-09-17 21:58:57.960 [TestNG-PoolService-1] INFO  factory.DriverFactory - user_is_on_the_login_page() ----- Start
+2022-09-17 21:58:57.960 [TestNG-PoolService-1] INFO  factory.DriverFactory - Driver sucessfully initialised
+2022-09-17 21:58:58.862 [TestNG-PoolService-0] INFO  factory.DriverFactory - user_is_on_the_login_page() ----- Start
+2022-09-17 21:58:58.862 [TestNG-PoolService-0] INFO  factory.DriverFactory - Driver sucessfully initialised
+2022-09-17 21:58:59.592 [TestNG-PoolService-2] INFO  factory.DriverFactory - user_has_already_logged_in_to_application ----- Start
+2022-09-17 21:58:59.592 [TestNG-PoolService-2] INFO  factory.DriverFactory - Driver sucessfully initialised
+2022-09-17 21:59:12.828 [TestNG-PoolService-2] INFO  factory.DriverFactory - Sucessfully navigated to http://automationpractice.com/index.php
+2022-09-17 21:59:18.183 [TestNG-PoolService-3] INFO  factory.DriverFactory - Sucessfully navigated to http://automationpractice.com/index.php
+2022-09-17 21:59:22.399 [TestNG-PoolService-2] INFO  factory.DriverFactory - Sucessfully logged in using creadentiasl : qalearningspace@gmail.com, Testing@123
+2022-09-17 21:59:22.399 [TestNG-PoolService-2] INFO  factory.DriverFactory - user_has_already_logged_in_to_application ----- End
+2022-09-17 21:59:22.413 [TestNG-PoolService-2] INFO  factory.DriverFactory - user_is_on_accounts_page ----- Start
+2022-09-17 21:59:22.417 [TestNG-PoolService-2] INFO  factory.DriverFactory - user_is_on_accounts_page ----- End
+2022-09-17 21:59:22.418 [TestNG-PoolService-2] INFO  factory.DriverFactory - user_gets_the_title_of_the_next_landing_page_i_e_useraccount_page ----- Start
+2022-09-17 21:59:22.429 [TestNG-PoolService-2] INFO  factory.DriverFactory - Fetched the title --> My account - My Store
+2022-09-17 21:59:22.430 [TestNG-PoolService-2] INFO  factory.DriverFactory - user_gets_the_title_of_the_next_landing_page_i_e_useraccount_page ----- End
+2022-09-17 21:59:22.432 [TestNG-PoolService-2] INFO  factory.DriverFactory - useraccount_page_title_should_be ----- Start
+2022-09-17 21:59:22.432 [TestNG-PoolService-2] INFO  factory.DriverFactory - Sucessfully validated page title to be My account - My Store
+2022-09-17 21:59:22.432 [TestNG-PoolService-2] INFO  factory.DriverFactory - useraccount_page_title_should_be ----- End
+2022-09-17 21:59:24.868 [TestNG-PoolService-3] INFO  factory.DriverFactory - Sucessfully logged in using creadentiasl : qalearningspace@gmail.com, Testing@123
+2022-09-17 21:59:24.868 [TestNG-PoolService-3] INFO  factory.DriverFactory - user_has_already_logged_in_to_application ----- End
+2022-09-17 21:59:24.870 [TestNG-PoolService-3] INFO  factory.DriverFactory - user_is_on_accounts_page ----- Start
+2022-09-17 21:59:24.870 [TestNG-PoolService-3] INFO  factory.DriverFactory - user_is_on_accounts_page ----- End
+2022-09-17 21:59:24.879 [TestNG-PoolService-3] INFO  factory.DriverFactory - user_gets_accounts_section ----- Start
+2022-09-17 21:59:25.080 [TestNG-PoolService-3] INFO  factory.DriverFactory - Sucessfully validated the options in account section [ORDER HISTORY AND DETAILS, MY CREDIT SLIPS, MY ADDRESSES, MY PERSONAL INFORMATION, MY WISHLISTS, Home]
+2022-09-17 21:59:25.080 [TestNG-PoolService-3] INFO  factory.DriverFactory - user_gets_accounts_section ----- End
+2022-09-17 21:59:25.083 [TestNG-PoolService-3] INFO  factory.DriverFactory - accounts_section_count_should_be ----- Start
+2022-09-17 21:59:25.144 [TestNG-PoolService-0] INFO  factory.DriverFactory - Sucessfully navigated to http://automationpractice.com/index.php
+2022-09-17 21:59:25.144 [TestNG-PoolService-0] INFO  factory.DriverFactory - user_is_on_the_login_page() ----- End
+2022-09-17 21:59:25.158 [TestNG-PoolService-0] INFO  factory.DriverFactory - Fetched the login page tile --> Login - My Store
+2022-09-17 21:59:25.164 [TestNG-PoolService-0] INFO  factory.DriverFactory - Validated the title to be Login - My Store
+2022-09-17 21:59:25.201 [TestNG-PoolService-3] INFO  factory.DriverFactory - Sucessfully validated the no. of options in account section to be 6
+2022-09-17 21:59:25.202 [TestNG-PoolService-3] INFO  factory.DriverFactory - accounts_section_count_should_be ----- End
+2022-09-17 21:59:25.204 [TestNG-PoolService-3] INFO  factory.DriverFactory - log_out_of_the_application() ----- Start
+2022-09-17 21:59:25.213 [TestNG-PoolService-1] INFO  factory.DriverFactory - Sucessfully navigated to http://automationpractice.com/index.php
+2022-09-17 21:59:25.213 [TestNG-PoolService-1] INFO  factory.DriverFactory - user_is_on_the_login_page() ----- End
+2022-09-17 21:59:25.358 [TestNG-PoolService-1] INFO  factory.DriverFactory - Entered user id :  qalearningspace@gmail.com
+2022-09-17 21:59:25.600 [TestNG-PoolService-1] INFO  factory.DriverFactory - Entered password :  Testing@123
+2022-09-17 21:59:28.234 [TestNG-PoolService-1] INFO  factory.DriverFactory - Successfully Logged in 
+2022-09-17 21:59:28.246 [TestNG-PoolService-1] INFO  factory.DriverFactory - Fetched the account page tile --> My account - My Store
+2022-09-17 21:59:28.248 [TestNG-PoolService-1] INFO  factory.DriverFactory - Verified the account page tile to be --> My account - My Store
+2022-09-17 21:59:28.636 [TestNG-PoolService-3] INFO  factory.DriverFactory - Successfully logged out
+2022-09-17 21:59:28.636 [TestNG-PoolService-3] INFO  factory.DriverFactory - log_out_of_the_application() ----- End

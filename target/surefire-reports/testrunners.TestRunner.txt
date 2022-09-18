@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: testrunners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 40.378 s <<< FAILURE! - in testrunners.TestRunner
+testrunners.TestRunner.runScenario["Accounts page title", "Account Page Feature"](2)  Time elapsed: 32.065 s  <<< FAILURE!
+java.lang.NullPointerException
+	at hooks.CucumberApplicationHook.TakeScreenShot(CucumberApplicationHook.java:49)
+	at hooks.CucumberApplicationHook.TakeScreenshotBeforeSceanrio(CucumberApplicationHook.java:34)
+
+testrunners.TestRunner.runScenario["Verify Portal page alert", "Login page feature for the e-commerce website"](2)  Time elapsed: 32.065 s  <<< FAILURE!
+java.lang.NullPointerException
+	at hooks.CucumberApplicationHook.TakeScreenShot(CucumberApplicationHook.java:49)
+	at hooks.CucumberApplicationHook.TakeScreenshotBeforeSceanrio(CucumberApplicationHook.java:34)
+
+testrunners.TestRunner.runScenario["Accounts section count", "Account Page Feature"](3)  Time elapsed: 32.945 s  <<< FAILURE!
+java.lang.NullPointerException
+	at hooks.CucumberApplicationHook.TakeScreenShot(CucumberApplicationHook.java:49)
+	at hooks.CucumberApplicationHook.TakeScreenshotBeforeSceanrio(CucumberApplicationHook.java:34)
+
+testrunners.TestRunner.runScenario["Successful login with right credentials (registered user) & Verify", "Login page feature for the e-commerce website"](4)  Time elapsed: 33.875 s  <<< FAILURE!
+java.lang.NullPointerException
+	at hooks.CucumberApplicationHook.TakeScreenShot(CucumberApplicationHook.java:49)
+	at hooks.CucumberApplicationHook.TakeScreenshotBeforeSceanrio(CucumberApplicationHook.java:34)
+

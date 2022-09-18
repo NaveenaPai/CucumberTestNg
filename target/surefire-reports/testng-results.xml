@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-16T09:47:33 EDT" name="Surefire suite" finished-at="2022-09-16T09:48:10 EDT" duration-ms="37421">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@9a2ec9b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-09-16T09:47:33 EDT" name="Surefire test" finished-at="2022-09-16T09:48:10 EDT" duration-ms="37421">
+      <class name="testrunners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunners.TestRunner@9a2ec9b]" started-at="2022-09-16T09:47:33 EDT" name="setUpClass" finished-at="2022-09-16T09:47:35 EDT" duration-ms="1780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@63124022]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@9a2ec9b]" started-at="2022-09-16T09:47:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-16T09:48:08 EDT" duration-ms="33869" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with right credentials (registered user) & Verify"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page feature for the e-commerce website"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at hooks.CucumberApplicationHook.TakeScreenShot(CucumberApplicationHook.java:49)
+at hooks.CucumberApplicationHook.TakeScreenshotBeforeSceanrio(CucumberApplicationHook.java:34)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@9a2ec9b]" started-at="2022-09-16T09:47:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-16T09:48:07 EDT" duration-ms="32043" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Page Feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at hooks.CucumberApplicationHook.TakeScreenShot(CucumberApplicationHook.java:49)
+at hooks.CucumberApplicationHook.TakeScreenshotBeforeSceanrio(CucumberApplicationHook.java:34)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@9a2ec9b]" started-at="2022-09-16T09:47:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-16T09:48:07 EDT" duration-ms="32907" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts section count"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Page Feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at hooks.CucumberApplicationHook.TakeScreenShot(CucumberApplicationHook.java:49)
+at hooks.CucumberApplicationHook.TakeScreenshotBeforeSceanrio(CucumberApplicationHook.java:34)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@9a2ec9b]" started-at="2022-09-16T09:47:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-16T09:48:07 EDT" duration-ms="32043" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Portal page alert"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page feature for the e-commerce website"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at hooks.CucumberApplicationHook.TakeScreenShot(CucumberApplicationHook.java:49)
+at hooks.CucumberApplicationHook.TakeScreenshotBeforeSceanrio(CucumberApplicationHook.java:34)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunners.TestRunner@9a2ec9b]" started-at="2022-09-16T09:48:08 EDT" name="tearDownClass" finished-at="2022-09-16T09:48:10 EDT" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunners.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
